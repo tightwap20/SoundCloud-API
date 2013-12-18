@@ -29,6 +29,14 @@ ul.genre li:hover{
 	color: #F8F8FF;
 	font-weight:bold
 }
+#playerEmbed{
+	width: 60%;
+	display:inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 30px;
+	padding-left: 130px;
+}
 #tagContent{
 	padding-top: 20px;
 	width: 150px;

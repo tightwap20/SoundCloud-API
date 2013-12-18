@@ -6,10 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/SoudcloudAPI.css" media="screen">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://connect.soundcloud.com/sdk.js"></script>
 	<script type="text/javascript" src="SoundCloud.js"></script>
-
+	<!-- // <script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script> -->
+	
 </head>
-<body>
+<body>  <!-- onload="findMusicByTag('hitech')" -->
 <div id="container">
 	<div id="backgroundIMG">
 		<h1>SongMash</h1>
@@ -17,17 +19,21 @@
 	<div id="genreContent">
 		<h2>Select a Music Genre</h2>
 		<ul class="genre">
-			<li class="clMus">Classical</li><br>
-			<li class="coMus">Country</li><br>
-			<li class="elMus">Electronic</li><br>
-			<li class="hiMus">HipHop</li><br>
-			<li class="jaMus">Jazz</li><br>
-			<li class="meMus">Metal</li><br>
-			<li class="poMus">Pop</li><br>
-			<li class="rnbMus">R&B</li><br>
-			<li class="roMus">Rock</li><br>
-			<li class="reMus">Reggae</li>
+			<li class="clMus">classical</li><br>
+			<li class="coMus">country</li><br>
+			<li class="elMus">electronic</li><br>
+			<li class="hiMus">hiphop</li><br>
+			<li class="jaMus">jazz</li><br>
+			<li class="meMus">metal</li><br>
+			<li class="poMus">pop</li><br>
+			<li class="rnbMus">r&b</li><br>
+			<li class="roMus">rock</li><br>
+			<li class="reMus">reggae</li>
 		</ul>
+	</div>
+	<div id="playerEmbed">
+		<!-- <iframe class="trackOne" width="100%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//http://api.soundcloud.com/tracks/38382123&auto_play=false&color=ff5500"></iframe>
+		<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&auto_play=true&color=ff5500"></iframe> -->
 	</div>
 	<div id="tagContent">
 		<h2>Select a Song Tag</h2>
