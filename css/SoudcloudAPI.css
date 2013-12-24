@@ -29,7 +29,7 @@ ul.genre li:hover{
 	color: #F8F8FF;
 	font-weight:bold
 }
-#playerEmbed{
+#player{
 	width: 60%;
 	display:inline-block;
 	text-align: center;
